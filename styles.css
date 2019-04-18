@@ -1,0 +1,132 @@
+.image {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  top: 0;
+  position: absolute;
+  left: 0;
+  filter: opacity(5%);
+  z-index: -1;
+}
+
+header {
+  height: auto;
+}
+
+.contact{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 250px;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.middle-port {
+
+  text-align: center;
+  font-size: 30px;
+  margin-top: 150px;
+}
+
+.port-image {
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+
+}
+
+.table {
+  margin: 30px auto;
+  font-size: 15px;
+  width: 40%;
+
+}
+
+.heading {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 400px;
+  font-size: 20px;
+  padding-top: 100px;
+  filter: opacity(100);
+}
+
+.skill-row {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: left;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  color: white;
+  background-color: #262626;
+  font-family: 'Dosis', sans-serif;
+
+}
+
+.logo {
+  float: left;
+  margin: 0;
+  padding-top: 12px;
+  font-size: 25px;
+}
+
+.container {
+  width: 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+  position: relative;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #a5a5a5;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+  position: absolute;
+  top: 0;
+  width: 0;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}

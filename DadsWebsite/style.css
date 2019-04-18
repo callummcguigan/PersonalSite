@@ -1,0 +1,148 @@
+body {
+  color: white;
+  margin: 0;
+  background: black;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 800;
+  height: 100%
+
+}
+
+
+
+.image {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  top: 0;
+  position: absolute;
+  left: 0;
+  filter: opacity(25%);
+  z-index: -1;
+
+
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.top-section {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 70px;
+  margin: auto;
+  width: 250px;
+}
+
+.photo-section {
+  text-align: left;
+  margin-top: 25px;
+}
+
+.social-section {
+  position: static;
+  bottom: 0;
+  text-align: right;
+}
+
+.pic {
+  float: left;
+  margin: 25px auto;
+  padding: 25px;
+}
+
+
+
+.footer-social {
+  float: left;
+  height: 50px;
+  width: 50px;
+}
+
+.credit {
+  position: relative;
+  text-align: right;
+  bottom: 0;
+}
+
+header {
+
+  height: 60px;
+}
+
+.logo {
+  float: left;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.table {
+  text-align: center;
+  margin: auto;
+  
+}
+
+.middle-about {
+
+text-align: center;
+
+margin-top: 100px;
+
+}
+
+.contact {
+  display: inline-block;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.email {
+  color: #8ee4ff
+
+}
+
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+  position: relative;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #a5a5a5;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+  position: absolute;
+  top: 0;
+  width: 0;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
